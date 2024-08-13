@@ -1,0 +1,26 @@
+.params {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 400;
+
+  &__pair {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    position: relative;
+
+    &::after {
+      content: '';
+      height: 1px;
+      width: 100%;
+      background-color: rgba(255, 255, 255, 0.2);
+      margin-bottom: 8px;
+      position: absolute;
+      bottom: -16px;
+    }
+  }
+}

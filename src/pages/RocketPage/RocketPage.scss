@@ -1,0 +1,33 @@
+.rocket-details {
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+  }
+
+  &__bottom {
+    display: flex;
+    gap: 24px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    padding: 24px;
+  }
+
+  &__title {
+    font-size: 64px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  &__image {
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+    width: 700px;
+    height: 450px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+  }
+}

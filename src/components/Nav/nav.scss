@@ -1,0 +1,45 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0;
+  margin-bottom: 50px;
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    gap: 48px;
+  }
+
+  &__link {
+    padding: 8px;
+
+
+    &--side {
+      padding: 8px;
+
+      border: 1px solid;
+      border-radius: 12px;
+      transition: transform 0.3s ease;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+
+    &:hover {
+      background-color: #333; 
+      border-color: #fff;
+      border-radius: 12px;
+    }
+  }
+
+  &__item {
+    font-size: 16px;
+    font-weight: 400;
+
+  }
+
+}
+
+
