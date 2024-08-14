@@ -34,7 +34,7 @@ export const Nav = () => {
           </li>
           <li className="nav__item" onClick={handleWarning}>
             <NavLink to="#" className="nav__link">
-              TEAM
+              QA
             </NavLink>
           </li>
           <li className="nav__item">

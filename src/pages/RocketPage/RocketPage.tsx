@@ -7,8 +7,13 @@ import { getTechParams } from "../../utils/getTechParams";
 import { RocketParams } from "../../components/RocketParams";
 import { Button } from "../../components/Button/Button";
 import { Footer } from "../../components/Footer";
+import { useEffect } from "react";
 
 export const RocketPage = () => {
+  useEffect(() => {
+    window.scrollTo(0,0);
+  }, []);
+  
   const { id } = useParams();
 
   const { rockets } = useSelector((state: RootState) => state.rockets);
