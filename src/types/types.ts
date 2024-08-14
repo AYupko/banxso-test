@@ -80,3 +80,9 @@ export type TechParam =  {
   value1: string;
   value2: string;
 }
+
+export type Astronaut = {
+  img: string;
+  position: string;
+  name: string;
+}

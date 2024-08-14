@@ -1,0 +1,32 @@
+[
+  {
+    "img": "/austronaut-image.png",
+    "position": "Commander",
+    "name": "John Smith"
+  },
+  {
+    "img": "/austronaut-image.png",
+    "position": "Pilot",
+    "name": "Emily Johnson"
+  },
+  {
+    "img": "/austronaut-image.png",
+    "position": "Mission Specialist",
+    "name": "Michael Brown"
+  },
+  {
+    "img": "/austronaut-image.png",
+    "position": "Flight Engineer",
+    "name": "Sarah Davis"
+  },
+  {
+    "img": "/austronaut-image.png",
+    "position": "Mission Specialist",
+    "name": "Michael Brown"
+  },
+  {
+    "img": "/austronaut-image.png",
+    "position": "Flight Engineer",
+    "name": "Sarah Davis"
+  }
+]

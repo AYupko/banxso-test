@@ -2,7 +2,6 @@
   padding: 24px;
   display: flex;
   flex-direction: column;
-  box-sizing: border-box;
   justify-content: center;
   gap: 8px;
   border: 1px solid rgba(255, 255, 255, 0.2);
@@ -28,10 +27,7 @@
     font-size: 24px;
     font-weight: 700;
     padding-top: 16px;
-    color: white;
     height: 60px;
-    overflow: hidden;
-    text-overflow: ellipsis;
   }
 
   &__params {

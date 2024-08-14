@@ -3,6 +3,7 @@
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 12px;
   margin-bottom: 100px;
+  max-width: 1280px;
 
   &__top {
     display: flex;
@@ -31,8 +32,6 @@
 
     width: 500px;
     height: 300px;
-    // border: 1px solid gray;
-    // border-radius: 12px;
   }
 
   &__icon {

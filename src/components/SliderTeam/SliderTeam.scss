@@ -1,0 +1,56 @@
+.slider-team {
+  display: flex;
+  gap: 20px;
+
+
+  &__left {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    justify-content: space-between;
+    
+  }
+
+  &__description {
+    margin-top: -250px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  &__slider {
+    display: flex;
+    gap: 20px;
+    width: 750px;
+  }
+
+  &__buttons {
+    display: flex;
+    gap: 12px;
+  }
+
+  &__button {
+    height: 100px;
+    width: 100px;
+    background-color: #fff;
+    border-radius: 12px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 0;
+    cursor: pointer;
+
+    &--right {
+      background-image: url('/public/arrow-right.svg');
+    }
+
+    &--left {
+      background-image: url('/public/arrow-left.svg');
+    }
+
+    &--disabled {
+      opacity: 30%;
+    }
+    
+  }
+}
+
+

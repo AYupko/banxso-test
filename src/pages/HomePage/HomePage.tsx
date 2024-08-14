@@ -3,6 +3,8 @@ import { RootState } from "../../store/store";
 import { Header } from "../../components/Header";
 import { useSelector } from "react-redux";
 import { RocketCard } from "../../components/RocketCard";
+import { SliderTeam } from "../../components/SliderTeam";
+import { Footer } from "../../components/Footer";
 
 export const HomePage = () => {
   const { rockets } = useSelector((state: RootState) => state.rockets);
@@ -20,7 +22,7 @@ export const HomePage = () => {
           </div>
         </section>
 
-        <section className="section about-us" id="about">
+        <section className="section about-us">
           <h2 className="section__title">about us</h2>
           <div className="video-container">
             <iframe
@@ -33,9 +35,10 @@ export const HomePage = () => {
         </section>
 
         <section className="section team">
-          <h2 className="section__title"></h2>
+          <SliderTeam />
         </section>
       </main>
+      <Footer />
     </>
   );
 };
