@@ -1,50 +1,29 @@
-# React + TypeScript + Vite
+# Space-X Rockets 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## [DEMO](https://add-mile-test.vercel.app/)
 
-Currently, two official plugins are available:
+## Description
+  This web application provides an immersive experience to explore SpaceX's Dragon rockets. Users can learn about the various models, watch videos about SpaceX missions, and discover the crew members who are turning these ambitious space projects into reality
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies
+  JavaScript, React, TypeScript, Redux, React swiper, Axios, SCSS, HTML;
 
-## Expanding the ESLint configuration
+## Key Features
+  - Choose your favourite models 
+  - Explore comprehensive details about SpaceX's Dragon rockets
+  - Effortlessly browse through lists using React Swiper features, providing a smooth and interactive way to explore the content.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Notes
+  - The application is designed for desktop use and does not currently support responsive layouts for phones and tablets.
 
-- Configure the top-level `parserOptions` property like this:
+## Installation and Local Setup
+  ### Clone the repository
+  git clone https://github.com/AYupko/banxso-test.git
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+  ### Install dependencies
+  npm install
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+  ### Start the project
+  npm run dev
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
